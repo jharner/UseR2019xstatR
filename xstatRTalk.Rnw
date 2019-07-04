@@ -54,7 +54,7 @@ UseR! 2019}
 \section{Introduction}
 
 \begin{frame}
-\frametitle{Why XLISP-STAT?}
+\frametitle{Why XLisp-Stat?}
 \begin{itemize}
 	\item 
 \end{itemize}
@@ -335,7 +335,12 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \end{itemize}
 \end{frame}
 
-\section{RXLisp Architecture}
+\section{RXLisp}
+
+\begin{frame}
+\frametitle{RXLisp}
+The \texttt{RXLisp} package provides an interface for calling XLisp-Stat functions from within R.
+\end{frame}
 
 \end{document}
 
