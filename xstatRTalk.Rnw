@@ -339,7 +339,15 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 
 \begin{frame}
 \frametitle{RXLisp}
-The \texttt{RXLisp} package provides an interface for calling XLisp-Stat functions from within R.
+The \texttt{RXLisp} package provides an interface for calling XLisp-Stat functions from within R.\\
+\vspace{0.5 cm}
+RXLisp has relatively few functions. The most important are:
+\begin{description}
+  \item[.XLispInit] which initializes the XLisp-Stat engine so that it can be used to process calls to XLisp functions;
+  \item[.XLisp] which provides an interface to calling XLisp-Stat functions from R, converting the arguments from R values to XLisp-Stat objects and converting the resulting value back to an R object;
+  \item[[[.XLispReference] which provide a way to invoke methods and access slots in XLisp objects from within R.
+\end{description}
+
 \end{frame}
 
 \end{document}

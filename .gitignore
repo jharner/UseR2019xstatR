@@ -5,6 +5,6 @@
 *.log
 *.nav
 *.snm
-.synctex.gz
+*.gz
 *.tex
 *.toc
