@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{xstatR Architecture}{8}{0}{2}
-\beamer@sectionintoc {3}{Data mapping}{12}{0}{3}
-\beamer@sectionintoc {4}{Main functions}{18}{0}{4}
-\beamer@sectionintoc {5}{xstatR}{23}{0}{5}
