@@ -62,7 +62,7 @@ XLisp-Stat has the following desirable features:
 	\item a rich environment for dynamic graphics;
 	\item a simple api for building graphical interfaces;
 	\item a flexible, intuitive object-oriented system
-	\item a strong way of symbolic AI programming 
+	\item strong support for symbolic AI programming 
 \end{itemize}
 and much more!
 \end{frame}
