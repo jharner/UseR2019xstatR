@@ -55,6 +55,8 @@ UseR! 2019}
 
 \begin{frame}
 \frametitle{Why XLisp-Stat?}
+\href{https://github.com/jharner/UseR2019xstatR}{GitHub repo for this talk: UseR2019xstatR}\\
+\vspace{0.25cm}
 XLisp-Stat is little used since R has become the dominant open-source statistical computing platform, but it has many interesting features. It is now easy to use a Dockerized environment containing both R and XLisp-Stat. The talk presents two approaches for integrating R and XLisp-Stat.\\
 \vspace{0.5cm}
 XLisp-Stat has the following desirable features:
@@ -72,8 +74,8 @@ and much more!
 
 Two dockerized environment have been created for integrating R and XLisp-Stat.
 \begin{description}
-	\item[xstatR] for embedding R into XLisp-Stat using R as a dynamic library
-	\item[RXLisp] for embedding XLisp-Stat into R using XLisp-Stat as a dynamic library
+	\item[\href{https://github.com/jharner/xstatR}{xstatR}] for embedding R into XLisp-Stat using R as a dynamic library
+	\item[\href{https://github.com/jharner/RXLisp}{RXLisp}] for embedding XLisp-Stat into R using XLisp-Stat as a dynamic library
 \end{description}
 \vspace{0.25 cm}
 \texttt{xstatR} was originally presented by Jim Harner with programming support by Jun Tan in the 2009 \href{https://www.r-project.org/DSC-2009/}{Directions in Statistical Computing (DSC) Workshop} held in Copenhagen.\\
