@@ -368,12 +368,38 @@ RXLisp has relatively few functions. The most important are:
 \texttt{\\
 > library(RXLisp)\\
 > .XLispInit()\\
-\vspace{0.25cm}
+> .XLisp("+", 1, 2, 3)\\
+> .XLisp("mean", c(1, 2, 3))\\
+\vspace{0.15cm}
 Generate a sample of 10 values from a Poisson distribution with mean 3.5.\\
-\vspace{0.25cm}
 > .XLisp("poisson-rand", as.integer(10), 3.5)\\
+\vspace{0.15cm}
+Reference objects\\
+> h <- .XLisp("histogram", rnorm(100))\\
+> .Xlisp("send", h, ":close")\\
+\vspace{0.15cm}
+or for a more R-like way\\
+> h[["title"]]\\
+> h\$close()\\
 }
 \end{frame}
+
+\begin{frame}
+\frametitle{RXLisp Graphics Examples}
+\texttt{\\
+> library(RXLisp)\\
+> .XLispInit()\\
+\vspace{0.15cm}
+Dynamic graphics\\
+> myData <- list(rnorm(20), rnorm(20), rnorm(20))\\
+> .XLisp("scatterplot-matrix", myData, ":variable-labels", list("a", "b", "c"))\\
+\vspace{0.15cm}
+or for a more R-like way\\
+> .XLisp("scatterplot-matrix", myData, "variable-labels"= list("a", "b", "c"))\\
+> .XLisp("spin-plot", myData)
+}
+\end{frame}
+
 
 \section{Discussion}
 
