@@ -414,11 +414,11 @@ or for a more R-like way\\
 \begin{frame}
 \frametitle{Currently working on...}
 \begin{itemize}
-	\item Virtual datasets combine the ``variables'' in a dataset with the ``derived variables'' from a model object
-	\item The dataset browser shows the virtual dataset by clicking on the statistical object view, e.g., a model view
-	\item Virtual datasets support linking, e.g., for  model diagnostic plots
-	\item Virtual model datasets combined with a model tree recursively allow model
-	comparisons 
+	\item Virtual datasets combine the ``variables'' in a dataset with the ``derived variables'' from a model object;
+	\item The dataset browser shows the virtual dataset by clicking on the statistical object view, e.g., a model view;
+	\item Virtual datasets support linking, e.g., for  model diagnostic plots;
+	\item Virtual model datasets combined with a model tree recursively allow model comparisons;
+	\item The RXLisp implementation.
 \end{itemize}
 \end{frame}
 
