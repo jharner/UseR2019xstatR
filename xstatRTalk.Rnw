@@ -240,7 +240,7 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \section{Main functions}
 
 \begin{frame}
-\frametitle{Low Level C Functions}
+\frametitle{Low-level C Functions}
 \begin{itemize}
 	\item \texttt{(callR "\emph{R statement}")}\\
 	Parse and evaluate an R statement. The evaluation result will be copied into a generic structure and returned to the user.
@@ -250,7 +250,7 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \end{frame}
 
 \begin{frame}
-\frametitle{xstatR Examples}
+\frametitle{xstatR Low-level Examples}
 \texttt{
 \\
 (setf y-list (callR "rnorm(50)")) \\
@@ -261,7 +261,7 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \end{frame}
 
 \begin{frame}
-\frametitle{High level functions: converting R objects}
+\frametitle{High-level functions: converting R objects}
 \begin{itemize}
 	\item A prototype, \texttt{Rengine-proto}, was built to ease the process of calling R.
 	\item  \texttt{Rengine-proto} directly supports the xstatR package, but can be used by any xlispstat package.
@@ -286,7 +286,7 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \end{frame}
 
 \begin{frame}
-\frametitle{Examples}
+\frametitle{xstatR High-level Examples}
 \texttt{
 \\
 (setf iris (send R :data "iris")) \\
@@ -296,6 +296,14 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 (send R :call "ls()") \\
 (setf x (send R :call "iris.data")) 
 }
+\end{frame}
+
+\begin{frame}
+\frametitle{Demos}
+\vspace{1cm}
+\begin{center}
+\href{https://stat.wvu.edu/~jharner/useR2019/xstatRvideos.html}{XLisp-Stat and xstatR Demos}
+\end{center}
 \end{frame}
 
 \section{xstatR}
