@@ -55,7 +55,7 @@ UseR! 2019}
 
 \begin{frame}
 \frametitle{Why XLisp-Stat?}
-\href{https://github.com/jharner/UseR2019xstatR}{GitHub repo for this talk: UseR2019xstatR}\\
+\href{https://github.com/jharner/UseR2019xstatR}{GitHub repo for this talk: https://github.com/jharner/UseR2019xstatR}\\
 \vspace{0.25cm}
 XLisp-Stat is little used since R has become the dominant open-source statistical computing platform, but it has many interesting features. It is now easy to use a Dockerized environment containing both R and XLisp-Stat. The talk presents two approaches for integrating R and XLisp-Stat.\\
 \vspace{0.5cm}
@@ -88,7 +88,7 @@ Both projects laid dormant until Docker made it possible to use the best feature
 \begin{frame}
 \frametitle{xstatR: Linking via the R dynamic library}
 
-\href{https://github.com/jharner/xstatR}{xstatR GitHub repo}\\
+\href{https://github.com/jharner/xstatR}{xstatR GitHub repo: https://github.com/jharner/xstatR}\\
 \vspace{0.25cm}
 \texttt{xstatR} is designed for the user who wants the full XLisp-Stat environment with extensions for advanced dynamic graphics and a full R environment both accessible by a command-line interface with X11 support.\\
 
@@ -105,7 +105,7 @@ Both projects laid dormant until Docker made it possible to use the best feature
 \begin{frame}
 \frametitle{RXLisp: Linking via the XLisp-Stat dynamic library}
 
-\href{https://github.com/jharner/RXLisp}{RXLisp GitHub repo}\\
+\href{https://github.com/jharner/RXLisp}{RXLisp GitHub repo: https://github.com/jharner/RXLisp}\\
 \vspace{0.25cm}
 \texttt{RXLisp} is designed for an R user who wants access to the dynamic graphics of XLisp-Stat using the syntax of R.
 \begin{itemize}
@@ -302,7 +302,7 @@ The \texttt{xstatR} and \texttt{RXLisp} images provide complete, immutable solut
 \frametitle{Demos}
 \vspace{1cm}
 \begin{center}
-\href{https://stat.wvu.edu/~jharner/useR2019/xstatRvideos.html}{XLisp-Stat and xstatR Demos}
+\href{https://stat.wvu.edu/~jharner/useR2019/xstatRvideos.html}{XLisp-Stat and xstatR Demos: https://stat.wvu.edu/~jharner/useR2019/xstatRvideos.html}
 \end{center}
 \end{frame}
 
