@@ -80,7 +80,7 @@ Two dockerized environment have been created for integrating R and XLisp-Stat.
 \vspace{0.25 cm}
 \texttt{xstatR} was originally presented by Jim Harner with programming support by Jun Tan in the 2009 \href{https://www.r-project.org/DSC-2009/}{Directions in Statistical Computing (DSC) Workshop} held in Copenhagen.\\
 \vspace{0.5 cm}
-\href{http://www.omegahat.net/RXLisp/index.html}{RXLisp} was developed by Duncan Temple Lang in 2002.
+\href{http://www.omegahat.net/RXLisp/index.html}{RXLisp} was developed by Duncan Temple Lang in 2002.\\
 \vspace{0.25 cm}
 Both projects laid dormant until Docker made it possible to use the best features of R and XLisp-Stat.
 \end{frame}
